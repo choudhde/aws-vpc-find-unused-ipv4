@@ -1,5 +1,7 @@
 ## aws-vpc-find-unused-ipv4
 
+![Terminal Overview](./images/unused_ipv4.png)
+
 #### Description:  
 <p> This utility script finds all VPCs, subnets, & unused private IPv4 addresses of a subnet, of a given aws account, across all the regions that are enabled for the account, and writes to a csv file. This is useful when you want to check how many unused IPv4 addresses are leftover for you to allocate any more resources, or adjust your autoscaling group accordingly.</p>
 
@@ -7,3 +9,4 @@
 
 <p>From the terminal - python3 vpc_finder.py -p dummy_profile -f dummy_file_out. </p>
 <p>Requirements - Python 3.x runtime</p>
+
